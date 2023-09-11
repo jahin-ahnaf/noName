@@ -5,7 +5,7 @@ body{
     font-family: 'Gotham', sans-serif;
 }
 
-div{
+form{
     align-items: center;
     width: 400px;
     display: block;
