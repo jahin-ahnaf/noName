@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<span data-tilt>
     <form>
-        <h3>Sign in to your account</h3>
-        <input type="email">
-        <input type="password">
-        <h6>Or sign in with-</h6>
+        <h2>Sign in to your account</h2>
+        <br/>
+        <input type="email" placeholder="Email Address">
+        <input type="password" placeholder="Password">
+        <button class="classic">Sign In</button>
+        <br/>
+        <p>Or sign in with-</p>
+        <br/>
+        <button class="google"><i class="fi fi-brands-google"></i>Sign in with Google</button>
+        <button class="facebook"><i class="fi fi-brands-facebook"></i>Sign in with Facebook</button>
+        <button class="twitter"><i class="fi fi-brands-twitter"></i>Sign in with Twitter</button>
     </form>
+</span>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 </body>
 </html>
