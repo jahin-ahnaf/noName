@@ -6,13 +6,15 @@
     <title>Sign Up</title>
 </head>
 <body>
-    <form>
-        <input placeholder="First Name">
-        <input placeholder="Last Name">
-        <input type="email" placeholder="Email Address">
-        <input type="password" placeholder="Password">
+    <form method="post" action="process_signup.php">
+        <input type="text" name="first_name" placeholder="First Name">
+        <input type="text" name="last_name" placeholder="Last Name">
+        <input type="email" name="email" placeholder="Email Address">
+        <input type="password" name="password" placeholder="Password">
         <button type="submit">Sign Up</button>
         <a href="index.html">Have an account? Sign In!</a>
     </form>
 </body>
+</html>
+
 </html>
